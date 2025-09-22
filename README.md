@@ -1,21 +1,19 @@
-# Reconhecimento de Imagem
+# Avengers Data Analysis
 
-Projeto desenvolvido como acompanhamento do vídeo "Dois projetos práticos em 30 minutos usando Pytho" do Canal DIO.(link: https://www.youtube.com/watch?v=het1o0JEmT4)
+## Analise dos Vingadores
 
-## Descrição
+Este repositório contém um projeto de análise de dados sobre os personagens da franquia Avengers. O objetivo é explorar e visualizar informações do dataset, incluindo número de aparições, distribuição de personagens e outras métricas relevantes. O projeto foi desenvolvido seguindo como guia um material da plataforma Universidade de Dados produzido por Andre Yukio.
 
-Este projeto consiste em um sistema de reconhecimento de imagem que consegue identificar objetos/elementos em imagens. Ele utiliza técnicas de aprendizado de máquina / redes neurais para classificar/rotular imagens com base em um conjunto de dados.
+## Descrição do Projeto
 
-## Funcionalidades
+O notebook realiza a exploração da base de dados dos Avengers (arquivo CSV), incluindo:
 
-- Treinamento de modelo de reconhecimento de imagem a partir de dataset.
-- Pré-processamento de imagens (redimensionamento, normalização, etc).
-- Avaliação do modelo (métricas como acurácia, precisão, recall, etc).
-- Carregamento de modelo treinado para fazer predições sobre novas imagens.
+- Estatísticas descritivas (média, mediana, moda) das aparições dos personagens.
+- Distribuição de aparições usando histogramas, boxplots e violin plots.
+- Visualização de padrões e possíveis outliers nos dados.
+- Insights sobre frequência e popularidade dos personagens.
 
-## Tecnologias / Ferramentas
+## Tecnologias Utilizadas
 
-- Linguagem: Python 3.x  
-- Bibliotecas: `numpy`, `pandas`, `tensorflow` / `keras` ou `pytorch` (especifique qual usa)  
-- Ferramentas auxiliares: OpenCV, PIL, etc  
-- Ambiente de execução: local / GPU / jupyter notebook  
+- Python 3.x  
+- Bibliotecas: `pandas`, `numpy`, `matplotlib`, `seaborn`  
